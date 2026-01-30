@@ -8,7 +8,7 @@ Developed on **real experimental data**, with a focus on robustness, interpretab
 
 ## Motivation
 
-In experimental and industrial contexts, datasets are often:
+datasets are often:
 - small
 - noisy
 - heterogeneous
