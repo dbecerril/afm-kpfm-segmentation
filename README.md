@@ -38,7 +38,7 @@ afm-kpfm-segmentation/
 ├── outputs/             # Example plots
 └── README.md
 
-
+```
 ## Example Results
 
 ### Interactive RF Segmentation
