@@ -37,3 +37,18 @@ afm-kpfm-segmentation/
 ├── data/sample/         # Small illustrative dataset
 ├── outputs/             # Example plots
 └── README.md
+
+
+## Example Results
+
+### Interactive RF Segmentation
+
+![RF GUI segmentation](images/Topography_original.png)
+
+### Dual-Image Segmentation Output
+
+![Dual-image segmentation overlay](images/Topography_border.png)
+
+### Statistical Analysis from Masks
+![KPFM original image](images/kpfm_sample_image.png)
+![Histogram and Gaussian fit](images/sample_stats.png)
