@@ -1,0 +1,39 @@
+# AFM / KPFM Dual-Image Segmentation with Random Forests
+
+Applied computer vision and data science pipeline for segmenting AFM and KPFM images using **classical machine learning (Random Forests)**, multiscale feature engineering, and statistical analysis.
+
+Developed on **real experimental data**, with a focus on robustness, interpretability, and small-dataset constraints, and a clear roadmap toward deep-learning models (e.g. U-Net).
+
+---
+
+## Motivation
+
+In experimental and industrial contexts, datasets are often:
+- small
+- noisy
+- heterogeneous
+
+This project prioritizes **reliable, interpretable segmentation** over benchmark-driven deep learning, while still supporting dataset construction for future CNN-based approaches.
+
+---
+
+## Key Features
+
+- Random Forest segmentation of AFM / KPFM images
+- **Dual-image feature fusion** (e.g. topography + phase)
+- Multiscale feature extraction (intensity, edges, texture)
+- Interactive GUI for labeling and training
+- Statistical analysis from segmentation masks
+- Publication-quality plots and summaries
+
+---
+
+## Project Structure
+
+```text
+afm-kpfm-segmentation/
+├── src/                 # RF GUI, analysis, utilities
+├── notebooks/           # Exploratory analysis
+├── data/sample/         # Small illustrative dataset
+├── outputs/             # Example plots
+└── README.md
